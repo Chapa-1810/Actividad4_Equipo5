@@ -55,9 +55,11 @@ def move():
 
     draw()
 
-    #for target in targets:
-        # if not inside(target):
-          #  return
+    for target in targets:
+        if not inside(target):
+            y = randrange(-150, 150)
+            target = vector(200, y)
+
 
     ontimer(move, 1)
 
