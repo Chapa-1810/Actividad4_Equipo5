@@ -60,6 +60,7 @@ def move():
             y = randrange(-150, 150)
             target = vector(200, y)
 
+
     ontimer(move, 1)
 
 setup(420, 420, 370, 0)
