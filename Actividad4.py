@@ -59,7 +59,7 @@ def move():
         # if not inside(target):
           #  return
 
-    # ontimer(move, 1)
+    ontimer(move, 1)
 
 setup(420, 420, 370, 0)
 hideturtle()
